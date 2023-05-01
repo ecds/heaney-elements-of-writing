@@ -1,0 +1,52 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://ecds.github.io/quire-seamus-heaney-elements-of-writing//iiif/cat-1/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      null
+    ]
+  },
+  "items": [
+    {
+      "id": "https://ecds.github.io/quire-seamus-heaney-elements-of-writing//iiif/cat-1/canvas",
+      "type": "Canvas",
+      "height": 1028,
+      "width": 736,
+      "items": [
+        {
+          "id": "https://ecds.github.io/quire-seamus-heaney-elements-of-writing//iiif/cat-1/canvas/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://ecds.github.io/quire-seamus-heaney-elements-of-writing//iiif/cat-1/canvas/vol-1",
+              "motivation": "painting",
+              "target": "https://ecds.github.io/quire-seamus-heaney-elements-of-writing//iiif/cat-1/canvas",
+              "type": "Annotation",
+              "body": {
+                "id": "https://ecds.github.io/quire-seamus-heaney-elements-of-writing/https:/ecds.github.io/quire-seamus-heaney-elements-of-writing/iiif/cat-1/vol-1/tiles/info.json",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1028,
+                "width": 736,
+                "label": {
+                  "en": [
+                    "Vol-1"
+                  ]
+                },
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://ecds.github.io/quire-seamus-heaney-elements-of-writing/iiif/cat-1/vol-1/tiles/info.json",
+                    "profile": "level0",
+                    "protocol": "http://iiif.io/api/image"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
